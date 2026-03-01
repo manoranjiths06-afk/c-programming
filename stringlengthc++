@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+int main() {
+char buffer [500];
+cout<<"enter the string: ";
+cin>>buffer;
+int length = strlen(buffer);
+cout<<"string= "<<buffer<<endl; 
+cout<<"string copy="<<length<<endl;
+return 0;
+}
