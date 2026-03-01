@@ -1,0 +1,11 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+int main() {
+char buffer[]="hello world";
+char key [50];
+strcpy(key,buffer);
+cout<<"string= "<<buffer<<endl;
+cout<<"string copy="<<key<<endl;
+return 0;
+ }
